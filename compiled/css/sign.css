@@ -1,3 +1,56 @@
-form{border:3px solid #f1f1f1}body{font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;background:url("../../../img/bgImage.png") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}input[type=password],input[type=text]{width:100%;padding:12px 20px;margin:8px 0;display:inline-block;border:1px solid #ccc;box-sizing:border-box}button{background-color:#4caf50;color:white;padding:14px 20px;margin:8px 0;border:none;cursor:pointer;width:100%}.imgcontainer{text-align:center;margin:24px 0 12px}img.avatar{width:40%;border-radius:50%}.container{padding:0 150px}span.psw{float:right;padding-top:16px}@media screen and (max-width: 300px){span.psw{display:block;float:none}.cancelbtn{width:100%}}#error{width:200px;margin:0 40%;color:red;font-style:italic}
+form {
+  border: 3px solid #f1f1f1; }
 
-/*# sourceMappingURL=sign.css.map */
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: url("../../../img/bgImage.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+input[type=password],
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box; }
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%; }
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px; }
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%; }
+
+.container {
+  padding: 0 150px; }
+
+span.psw {
+  float: right;
+  padding-top: 16px; }
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none; }
+  .cancelbtn {
+    width: 100%; } }
+
+#error {
+  width: 200px;
+  margin: 0 40%;
+  color: red;
+  font-style: italic; }
