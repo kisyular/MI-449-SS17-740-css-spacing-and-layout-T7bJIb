@@ -49,6 +49,7 @@ body {
 
 .intro-text {
   font-size: 95%;
+  text-transform: uppercase;
 }
 
 tr,
@@ -101,7 +102,10 @@ table {
 }
 
 #content1,
-#content2 {
+#content2,
+#content3,
+#content4,
+#content5 {
   background-color: white;
 }
 
@@ -259,7 +263,6 @@ footer {
 
 #myFooter {
   background-color: #182c39;
-  color: white;
 }
 
 #myFooter .footer-copyright {
@@ -314,4 +317,13 @@ footer {
 .bgNone {
   background-color: #182c39;
   border: none;
+}
+
+.black {
+  color: black;
+}
+
+.downloads {
+  height: 700px;
+  overflow-y: auto;
 }
